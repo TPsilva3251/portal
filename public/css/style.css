@@ -105,9 +105,10 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
 
-    .galery{
+    .galery {
         height: 250px;
     }
+
     .nav-bar {
         height: 25%;
     }
@@ -346,7 +347,7 @@ a:hover {
 
 @media only screen and (max-width: 450px) {
 
-    .galery{ 
+    .galery {
         height: 160px;
     }
 
@@ -618,7 +619,3 @@ a:hover {
     } */
 
 }
-
-
-
-
