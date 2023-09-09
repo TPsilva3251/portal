@@ -37,8 +37,9 @@
             <a href="#" class="anuncios">Anúncios</a>
         </div>
         <div class="search">
-            <input type="text" name="search" id="search" placeholder="O que você procura?">
-            <button class="btn-search">BUSCAR</button>
+            <input type="text" name="search" id="search" placeholder="O que você procura?" wire:model="novo">
+            <button class="btn-search" wire:click="buscar">BUSCAR</button>
+            <h3>{{$teste}}</h3>
         </div>
     </div>
     <!-- SlideBarFotos -->
